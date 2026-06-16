@@ -1,6 +1,7 @@
-function uniq(array) {
+export default function uniq(array) {
     return [...new Set(array)];
 }
 
 
-module.export = uniq;
+
+
