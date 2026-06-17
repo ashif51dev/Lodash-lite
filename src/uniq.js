@@ -1,4 +1,4 @@
-export default function uniq(array) {
+export  function uniq(array) {
     return [...new Set(array)];
 }
 
