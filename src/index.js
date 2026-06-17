@@ -1,4 +1,5 @@
 
 import { uniq }  from "./uniq.js";
+import { chunk }  from "./chunk.js";
 
-export {uniq};
+export {uniq, chunk};
