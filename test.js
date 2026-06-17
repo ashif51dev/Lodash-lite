@@ -1,4 +1,6 @@
-import { uniq } from "./src";
+import { uniq } from "./src/index.js";
 
 
-uniq([1, 2, 2, 3, 3]);
+let result = uniq([1, 2, 2, 3, 3]);
+
+console.log(result);
